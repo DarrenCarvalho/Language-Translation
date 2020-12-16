@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="../static/css/styles.css" type="text/css">
+    </head>
+    <body>
+        <form action="/predict" method="POST">
+        <div class="wrapper">
+            <div class="heading-input">
+                <h1>Language Translator</h1><br>
+            </div>
+            <div class="input-data">
+                <input type="text" name="English" id="English" required>
+                <div class="underline"></div>
+                <label>English</label>
+            </div>
+            <br><br>
+            <div class="input-data">
+                <input type="text" name="German" id = "German" maxlength="1000" value="{{prediction}}">
+                <div class="underline"></div>
+                <label>German</label> 
+            </div>
+            <div>
+                <br><br>
+                <button type="submit" class="btn">Predict</button>
+            </div>
+        </div>
+    </form>
+    <footer class="footer">
+        <p class="footer-text">Email: darrencarvalho7@gmail.com</p>
+    </footer>
+    </body>
+</html>
+
