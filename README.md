@@ -1,2 +1,5 @@
 # Language-Translation
-Translate texts in English to German
+
+LSTM Encoder Decoder model to translate English texts into German. 
+
+https://eng-ger.herokuapp.com/
